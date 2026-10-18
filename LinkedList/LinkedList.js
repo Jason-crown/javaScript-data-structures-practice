@@ -48,4 +48,15 @@ class LinkedList {
             this.size--;
         }
     }
+
+    // Print the list
+    print() {
+        let current = this.head;
+        let result = '';
+        while (current) {
+            result += current.data + ' -> ';
+            current = current.next;
+        }
+        console.log(result + 'null');
+    }
 }
