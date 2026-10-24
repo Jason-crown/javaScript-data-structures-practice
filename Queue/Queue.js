@@ -24,3 +24,4 @@ class Queue {
         }
         this.size++;
     }
+}
